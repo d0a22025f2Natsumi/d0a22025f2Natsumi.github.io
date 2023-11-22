@@ -1,0 +1,107 @@
+.横並びA {
+	display: flex;
+	
+	justify-content: space-between;
+	
+	& .列 {
+		background-color: orange;
+		
+		width: 120px;
+	}
+}
+
+.横並びB {
+	display: flex;
+	
+	justify-content: space-between;
+	
+	& .広い列 {
+		background-color: lightblue;
+	}
+	
+	& .狭い列 {
+		background-color: lightgreen;
+		width: 120px;
+	}
+}
+
+.横並びC {
+	display: flex;
+	justify-content: space-between;
+	
+	& .列 {
+		background-color: pink;
+		width: 120px;
+	}
+}
+
+.横並びD {
+	display: flex;
+	
+	justify-content: center;
+	
+
+	gap: 20px;
+	
+	& .列 {
+		background-color: red;
+		width: 120px;
+	}
+}
+
+
+.動物 {
+	display: flex;
+	
+	justify-content: space-between;
+	
+	
+& .親{
+	border: 0.5px solid #000000;
+	width: 120px;
+	
+	
+ & .イヌ{
+		width: 80%;
+	  padding: 10px 20px 0px 12px;
+	}
+
+ & .イヌ文字{
+		font-size: 1.2em;
+		font-weight: 900;
+	}
+	}
+
+
+
+& .親{
+	border: 0.5px solid #000000;
+	width: 120px;
+	
+
+ & .ヤク{
+		width: 80%;
+	  padding: 10px 20px 0px 12px;
+	}
+	
+ & .ヤク文字{
+		font-size: 1.2em;
+		font-weight: 900;
+	}
+	}
+
+& .親{
+	border: 0.5px solid #000000;
+	width: 120px;
+	
+	
+ & .キツネ{
+		width: 80%;
+	  padding: 10px 20px 0px 12px;
+	}
+ & .キツネ文字{
+		font-size: 1.2em;
+		font-weight: 900;
+	}
+}
+}
